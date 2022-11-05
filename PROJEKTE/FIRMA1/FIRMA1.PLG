@@ -1,0 +1,41 @@
+--------------------Configuration: Firma1 - Win32 Release--------------------
+Begining build with project "C:\Projekte\FIRMA2\FIRMA1.DSP", at root.
+Active configuration is Win32 (x86) Console Application (based on Win32 (x86) Console Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /Fp"c:\tmp\Firma/FIRMA1.pch" /YX /Fo"c:\tmp\Firma/" /Fd"c:\tmp\Firma/" /FD /c "
+			"Win32 Resource Compiler" with flags "/l 0x407 /d "NDEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"c:\tmp\Firma/FIRMA1.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"c:\tmp\Firma/FIRMA1.pdb" /machine:I386 /out:"c:\tmp\Firma/FIRMA1.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP7370.TMP" with contents </nologo /ML /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /Fp"c:\tmp\Firma/FIRMA1.pch" /YX /Fo"c:\tmp\Firma/" /Fd"c:\tmp\Firma/" /FD /c 
+"C:\Projekte\FIRMA2\Datum.cpp"
+"C:\Projekte\FIRMA2\Firma1.cpp"
+"C:\Projekte\FIRMA2\Freimitb.cpp"
+"C:\Projekte\FIRMA2\Leiter.cpp"
+"C:\Projekte\FIRMA2\Mitarb.cpp"
+"C:\Projekte\FIRMA2\Person.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP7370.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP7371.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:no /pdb:"c:\tmp\Firma/FIRMA1.pdb" /machine:I386 /out:"c:\tmp\Firma/FIRMA1.exe" 
+\tmp\Firma\Datum.obj
+\tmp\Firma\Firma1.obj
+\tmp\Firma\Freimitb.obj
+\tmp\Firma\Leiter.obj
+\tmp\Firma\Mitarb.obj
+\tmp\Firma\Person.obj>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP7371.TMP" 
+Compiling...
+Datum.cpp
+Firma1.cpp
+Freimitb.cpp
+Leiter.cpp
+Mitarb.cpp
+Person.cpp
+Linking...
+
+
+
+FIRMA1.exe - 0 error(s), 0 warning(s)

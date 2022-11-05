@@ -1,0 +1,25 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f3\froman\fcharset0\fprq2 Courier;}{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f5\fswiss\fcharset0\fprq2 Arial;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}
+{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;
+\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20\lang1031 \snext0 Normal;}{\s1\sb240\sa60\keepn\widctlpar \b\f5\fs28\lang1031\kerning28 
+\sbasedon0\snext0 heading 1;}{\s2\sb240\sa60\keepn\widctlpar \b\i\f5\fs20\lang1031 \sbasedon0\snext0 heading 2;}{\s3\sb240\sa60\keepn\widctlpar \f5\fs20\lang1031 \sbasedon0\snext0 heading 3;}{\s4\sb240\sa60\keepn\widctlpar \b\f5\fs20\lang1031 
+\sbasedon0\snext0 heading 4;}{\s5\sb240\sa60\widctlpar \f5\fs22\lang1031 \sbasedon0\snext0 heading 5;}{\s6\sb240\sa60\widctlpar \i\f4\fs22\lang1031 \sbasedon0\snext0 heading 6;}{\s7\sb240\sa60\widctlpar \f5\fs20\lang1031 \sbasedon0\snext0 heading 7;}{
+\s8\sb240\sa60\widctlpar \i\f5\fs20\lang1031 \sbasedon0\snext0 heading 8;}{\s9\sb240\sa60\widctlpar \b\i\f5\fs18\lang1031 \sbasedon0\snext0 heading 9;}{\*\cs10 \additive Default Paragraph Font;}{\*\cs15 \additive\b\ul\nosupersub \sbasedon10 Stichwort;}{
+\s16\widctlpar \b\f3\fs20\cf8\lang1031 \sbasedon0\snext16 Code\'fcberschrift;}}{\info{\author FernUniversit\'e4t Hagen}{\operator FernUniversit\'e4t Hagen}{\creatim\yr1997\mo3\dy27\hr16\min27}{\revtim\yr1997\mo7\dy7\hr14\min12}{\version2}{\edmins0}
+{\nofpages1}{\nofwords160}{\nofchars913}{\*\company Fernuniversit\'e4t Hagen}{\vern57431}}\paperw11906\paperh16838\margl1417\margr1417\margt1417\margb1134 \deftab708\widowctrl\ftnbj\aenddoc\hyphhotz425\linkstyles\hyphcaps0\formshade \fet0\sectd 
+\linex0\headery709\footery709\colsx709\endnhere {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}
+{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \widctlpar\tx496\tx7583 \f4\fs20\lang1031 {\f5 Nun existieren }{\b\f5 
+zwei verschiedene Versionen der}{\cs15\b\f5  Arbeitszeitliste}{\f5 : Einmal die gerade ver\'e4nderte Version im Arbeitsspeicher, auch }{\cs15\b\f5 Arbeitsvariante}{\f5  genannt, und die unver\'e4nderte Version auf dem Festspeichermedium, auch }{\b\f5 
+gesicherte Variante}{\f5  genannt. In diesem Zustand ist die Schaltfl\'e4che }{\f11 \'dcbernehmen}{\f5  aktiviert.
+\par 
+\par Beide Varianten, die gesicherte Variante und die}{\cs15\b\f5  }{\cs15\f5 Arbeitsvariante}{\f5 , sind solange nicht identisch, bis die }{\cs15\f5 Arbeitsvariante}{\f5  wieder auf das Festspeichermedium geschrieben wird.
+\par 
+\par Damit das Programm wei\'df, ob die }{\cs15\f5 Arbeitsvariante}{\b\f5  }{\f5 der}{\b\f5  }{\cs15\f5 Arbeitszeitliste}{\f5  durch den Benutzer ver\'e4ndert wurde, gibt es in der }{\b\f5 MFC-Klasse}{\f5  }{\f11 CDocument}{\f5  die zwei }{\b\f5 Methoden}{\f5 
+ }{\f11 SetModifiedFlag}{\f5  und }{\f11 IsModified.}{\f5  
+\par 
+\par Da die Klasse }{\f11 CViBuroDoc}{\f5  ein Nachfolger der MFC-Klasse }{\f11 CDocument}{\f5  ist, erfolgt das }{\b\f5 Setzen des \'c4nderungsflags}{\f5  nicht mehr automatisch. Durch den entsprechenden Einsatz der Methoden }{\f11 SetModifiedFlag}{\f5  mu
+\'df man f\'fcr das Setzen des \'c4nderungsflags selbst sorgen.
+\par 
+\par Jetzt bietet das }{\cs15\b\f5 Programmger\'fcst}{\f5  wieder die Standardeigenschaft an, beim Schlie\'dfen der Anwendung den Benutzer aufzufordern, die Arbeitszeitliste zu speichern, wenn sie ver\'e4ndert wurde.
+\par }\pard \widctlpar {\f5 
+\par }}

@@ -1,0 +1,24 @@
+{\rtf1\ansi\ansicpg1252\uc1 \deff0\deflang1033\deflangfe1031{\fonttbl{\f0\froman\fcharset0\fprq2{\*\panose 02020603050405020304}Times New Roman;}{\f1\fswiss\fcharset0\fprq2{\*\panose 020b0604020202020204}Arial;}
+{\f2\fmodern\fcharset0\fprq1{\*\panose 02070309020205020404}Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;
+\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{
+\nowidctlpar\widctlpar\adjustright \fs20\lang1031\cgrid \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}}{\info{\author Praktische Informatik I}{\operator Praktische Informatik I}{\creatim\yr1997\mo9\dy8\hr21\min47}
+{\revtim\yr1997\mo9\dy9\hr20\min53}{\version3}{\edmins0}{\nofpages1}{\nofwords216}{\nofchars1232}{\*\company  }{\nofcharsws0}{\vern73}}\margl1417\margr1417\margt1417\margb1134 \widowctrl\ftnbj\aenddoc\hyphhotz425\hyphcaps0\viewkind1\viewscale100 \fet0
+\sectd \linex0\headery709\footery709\colsx709\sectdefaultcl {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4
+\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}
+{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \nowidctlpar\adjustright \fs20\lang1031\cgrid {\f1\cgrid0 Der Programmierer mu\'df
+ (normalerweise mit Hilfe des ClassWizards) einen Eintrag in die }{\b\f1\cgrid0 Nachrichtentabelle}{\f1\cgrid0  der richtigen Klasse einf\'fcgen, um eine Nachricht mit einer Funktion zu verkn\'fcpfen. Welcher }{\b\f1\cgrid0 Klasse}{\f1\cgrid0 
+ ordnen wir jedoch die Funktion zu, die die jeweilige Nachricht verarbeitet?
+\par 
+\par Um diese Frage zu beantworten, mu\'df man \'fcberlegen, welche Klasse aus einer der vier }{\b\f1\cgrid0 Klassengrundtypen}{\f1\cgrid0  (}{\b\f1\cgrid0 Ansichtsklasse}{\f1\cgrid0 , }{\b\f1\cgrid0 Rahmenklasse}{\f1\cgrid0 , }{\b\f1\cgrid0 
+Dokumentklasse,  Anwendungsklasse}{\f1\cgrid0 ) die Nachricht verarbeiten soll.
+\par 
+\par So ist es z.B. sinnvoll, die Nachricht \'fcber das \'d6ffnen eines neuen Fensters durch eine Funktion in der Klasse}{\cgrid0  }{\f2\cgrid0 CMainFrame }{\f1\cgrid0 verarbeiten zu lassen. Nachrichten \'fcber Aktionen mit der Zwischenablage}{\b\f1\cgrid0  }{
+\f1\cgrid0 (Kopieren, Einf\'fcgen) sind am besten durch Funktionen einer Ansichts- oder Dokumentklassen zu verarbeiten.
+\par }{\cgrid0 
+\par }{\f1\cgrid0 Speziell f\'fcr den vierten.Schritt unseres Projekts}{\cgrid0  }{\f2\cgrid0 ViBuro }{\f1\cgrid0 f\'fchren wir }{\b\f1\cgrid0 zwei neue Klassen}{\f1\cgrid0  ein: die Klasse}{\cgrid0  }{\f2\cgrid0 CAufgabenView }{\f1\cgrid0 und die}{\cgrid0  }{
+\f1\cgrid0 Klasse}{\cgrid0  }{\f2\cgrid0 CBerichtView}{\cgrid0 . }{\f1\cgrid0 Diese beiden Klassen sind u.a. f\'fcr die Operationen mit der Zwischenablage im Aufgaben- und Berichtfenster zust\'e4ndig, die die Klasse}{\cgrid0  }{\f2\cgrid0 CStunEingabe }{
+\f1\cgrid0 nicht unterst\'fctzt. Abgeleitet werden beide Klassen von der Klasse}{\cgrid0  }{\f2\cgrid0 CEditView}{\cgrid0 . }{\f1\cgrid0 Wie der Name schon verr\'e4t, ist}{\cgrid0  }{\f2\cgrid0 CEditView }{\f1\cgrid0 eine}{\b\f1\cgrid0  }{\f1\cgrid0 
+Ansichtsklasse. Alle Nachrichten \'fcber Operationen mit der Zwischenablage im Aufgaben- oder Berichtfenster werden zur Verarbeitung an eine der Klassen geschickt.
+\par 
+\par In MDI- Anwendungen mu\'df man sogenannte }{\b\f1\cgrid0 Templates}{\f1\cgrid0  definieren, damit die}{\b\f1\cgrid0  }{\f1\cgrid0 Ansichtsklassen, Rahmenklassen und Dokumentklassen zusammenarbeiten}{\cgrid0 .
+\par }}

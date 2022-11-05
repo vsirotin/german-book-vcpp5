@@ -1,0 +1,104 @@
+--------------------Configuration: ViBuro - Win32 Debug--------------------
+Begining build with project "C:\Projekte\SCHRITT6\VIBURO\VIBURO.DSP", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"c:\tmp\schritt6/" /Fp"c:\tmp\schritt6/VIBURO.pch" /Yu"stdafx.h" /Fo"c:\tmp\schritt6/" /Fd"c:\tmp\schritt6/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x407 /fo"c:\tmp\schritt6/ViBuro.res" /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"c:\tmp\schritt6/VIBURO.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"c:\tmp\schritt6/VIBURO.pdb" /debug /machine:I386 /out:"c:\tmp\schritt6/VIBURO.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "C:\WINDOWS\TEMP\RSP9192.BAT" with contents <@echo off
+".\makehelp.bat"
+>
+Creating command line "C:\WINDOWS\TEMP\RSP9192.BAT" 
+Creating command line "rc.exe /l 0x407 /fo"c:\tmp\schritt6/ViBuro.res" /d "_DEBUG" "C:\Projekte\SCHRITT6\VIBURO\ViBuro.rc"" 
+Making help file...
+Building Win32 Help files
+
+        1 Datei(en) kopiert
+        1 Datei(en) kopiert
+        1 Datei(en) kopiert
+        1 Datei(en) kopiert
+
+Creating temp file "C:\WINDOWS\TEMP\RSP91F3.TMP" with contents </nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"c:\tmp\schritt6/" /Fp"c:\tmp\schritt6/VIBURO.pch" /Yu"stdafx.h" /Fo"c:\tmp\schritt6/" /Fd"c:\tmp\schritt6/" /FD /c 
+"C:\Projekte\SCHRITT6\VIBURO\ArbeitsTag.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Arbeitszeitlist.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\AufgabeView.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\BerichtView.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\ChildFrm.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Datum.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\EdDoc.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Freimitb.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Leiter.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\MainFrm.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Mitarb.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\NewDialog.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Option.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Person.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\SetParam.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\StunEingab.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\ViBuro.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\ViBuroDoc.cpp"
+"C:\Projekte\SCHRITT6\VIBURO\Waechter.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP91F3.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP91F4.TMP" with contents </nologo /MTd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /FR"c:\tmp\schritt6/" /Fp"c:\tmp\schritt6/VIBURO.pch" /Yc"stdafx.h" /Fo"c:\tmp\schritt6/" /Fd"c:\tmp\schritt6/" /FD /c 
+"C:\Projekte\SCHRITT6\VIBURO\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP91F4.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP91F5.TMP" with contents </nologo /subsystem:windows /incremental:yes /pdb:"c:\tmp\schritt6/VIBURO.pdb" /debug /machine:I386 /out:"c:\tmp\schritt6/VIBURO.exe" 
+\tmp\schritt6\ArbeitsTag.obj
+\tmp\schritt6\Arbeitszeitlist.obj
+\tmp\schritt6\AufgabeView.obj
+\tmp\schritt6\BerichtView.obj
+\tmp\schritt6\ChildFrm.obj
+\tmp\schritt6\Datum.obj
+\tmp\schritt6\EdDoc.obj
+\tmp\schritt6\Freimitb.obj
+\tmp\schritt6\Leiter.obj
+\tmp\schritt6\MainFrm.obj
+\tmp\schritt6\Mitarb.obj
+\tmp\schritt6\NewDialog.obj
+\tmp\schritt6\Option.obj
+\tmp\schritt6\Person.obj
+\tmp\schritt6\SetParam.obj
+\tmp\schritt6\StdAfx.obj
+\tmp\schritt6\StunEingab.obj
+\tmp\schritt6\ViBuro.obj
+\tmp\schritt6\ViBuroDoc.obj
+\tmp\schritt6\Waechter.obj
+\tmp\schritt6\ViBuro.res>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP91F5.TMP" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ArbeitsTag.cpp
+Arbeitszeitlist.cpp
+AufgabeView.cpp
+BerichtView.cpp
+ChildFrm.cpp
+Datum.cpp
+EdDoc.cpp
+Freimitb.cpp
+Leiter.cpp
+MainFrm.cpp
+Mitarb.cpp
+NewDialog.cpp
+Option.cpp
+Person.cpp
+SetParam.cpp
+StunEingab.cpp
+ViBuro.cpp
+ViBuroDoc.cpp
+Waechter.cpp
+Generating Code...
+Linking...
+
+
+
+VIBURO.exe - 0 error(s), 0 warning(s)

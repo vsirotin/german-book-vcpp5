@@ -1,0 +1,894 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// German (Germany) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 7, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\ViBuro.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.deu\\afxres.rc""          // Standard components\r\n"
+    "#include ""l.deu\\afxprint.rc""        // printing/print preview resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\mainfram.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_ARBEIT_AUFGABEN
+    BUTTON      ID_ARBEIT_BERICHT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+    BUTTON      ID_CONTEXT_HELP
+    SEPARATOR
+    BUTTON      ID_APP_EXIT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Datei"
+    BEGIN
+        MENUITEM "&Neu/Öffnen\tStrg+N",         ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Ansicht"
+    BEGIN
+        MENUITEM "&Symbolleiste",               ID_VIEW_TOOLBAR
+        MENUITEM "S&tatusleiste",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Hilfethemen",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "Inf&o über ViBuro...",        ID_APP_ABOUT
+    END
+END
+
+IDR_VIBUROTYPE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Datei"
+    BEGIN
+        MENUITEM "&Neu / Öffnen\tStrg+N",       ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Schließen",                  ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "S&peichern\tStrg+S",          ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Drucken...\tStrg+P",         ID_FILE_PRINT
+        MENUITEM "Sei&tenansicht",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Drucker&einrichtung...",      ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Bearbeiten"
+    BEGIN
+        MENUITEM "&Rückgängig\tStrg+Z",         ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Ausschneiden\tStrg+X",       ID_EDIT_CUT
+        MENUITEM "&Kopieren\tStrg+C",           ID_EDIT_COPY
+        MENUITEM "E&infügen\tStrg+V",           ID_EDIT_PASTE
+    END
+    POPUP "&Ansicht"
+    BEGIN
+        MENUITEM "&Symbolleiste",               ID_VIEW_TOOLBAR
+        MENUITEM "S&tatusleiste",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "A&rbeit"
+    BEGIN
+        MENUITEM "&Aufgaben",                   ID_ARBEIT_AUFGABE
+        MENUITEM "&Bericht",                    ID_ARBEIT_BERICHT
+        MENUITEM SEPARATOR
+        MENUITEM "&Einstellungen",              ID_ARBEIT_EINSTELLUNGEN
+    END
+    POPUP "&Fenster"
+    BEGIN
+        MENUITEM "Neues &Fenster",              ID_WINDOW_NEW
+        MENUITEM "Über&lappend",                ID_WINDOW_CASCADE
+        MENUITEM "&Nebeneinander",              ID_WINDOW_TILE_HORZ
+        MENUITEM "&Symbole anordnen",           ID_WINDOW_ARRANGE
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Hilfethemen",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "Inf&o über ViBuro...",        ID_APP_ABOUT
+    END
+END
+
+IDR_VIBUROTYPE_AUFGABE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Datei"
+    BEGIN
+        MENUITEM "&Neu / Öffnen\tStrg+N",       ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Schließen",                  ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "S&peichern\tStrg+S",          ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Drucken...\tStrg+P",         ID_FILE_PRINT
+        MENUITEM "Sei&tenansicht",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Drucker&einrichtung...",      ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Bearbeiten"
+    BEGIN
+        MENUITEM "&Rückgängig\tStrg+Z",         ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Ausschneiden\tStrg+X",       ID_EDIT_CUT
+        MENUITEM "&Kopieren\tStrg+C",           ID_EDIT_COPY
+        MENUITEM "E&infügen\tStrg+V",           ID_EDIT_PASTE
+    END
+    POPUP "&Ansicht"
+    BEGIN
+        MENUITEM "&Symbolleiste",               ID_VIEW_TOOLBAR
+        MENUITEM "S&tatusleiste",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "A&rbeit"
+    BEGIN
+        MENUITEM "&Aufgaben",                   ID_ARBEIT_AUFGABE
+        MENUITEM "&Bericht",                    ID_ARBEIT_BERICHT
+        MENUITEM SEPARATOR
+        MENUITEM "&Einstellungen",              ID_ARBEIT_EINSTELLUNGEN
+    END
+    POPUP "&Fenster"
+    BEGIN
+        MENUITEM "Neues &Fenster",              ID_WINDOW_NEW
+        MENUITEM "Über&lappend",                ID_WINDOW_CASCADE
+        MENUITEM "&Nebeneinander",              ID_WINDOW_TILE_HORZ
+        MENUITEM "&Symbole anordnen",           ID_WINDOW_ARRANGE
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Hilfethemen",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "Inf&o über ViBuro...",        ID_APP_ABOUT
+    END
+END
+
+IDR_VIBUROTYPE_BERICHT MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Datei"
+    BEGIN
+        MENUITEM "&Neu / Öffnen\tStrg+N",       ID_FILE_NEW
+        MENUITEM SEPARATOR
+        MENUITEM "&Schließen",                  ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "S&peichern\tStrg+S",          ID_FILE_SAVE
+        MENUITEM SEPARATOR
+        MENUITEM "&Drucken...\tStrg+P",         ID_FILE_PRINT
+        MENUITEM "Sei&tenansicht",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "Drucker&einrichtung...",      ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "&Beenden",                    ID_APP_EXIT
+    END
+    POPUP "&Bearbeiten"
+    BEGIN
+        MENUITEM "&Rückgängig\tStrg+Z",         ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "&Ausschneiden\tStrg+X",       ID_EDIT_CUT
+        MENUITEM "&Kopieren\tStrg+C",           ID_EDIT_COPY
+        MENUITEM "E&infügen\tStrg+V",           ID_EDIT_PASTE
+    END
+    POPUP "&Ansicht"
+    BEGIN
+        MENUITEM "&Symbolleiste",               ID_VIEW_TOOLBAR
+        MENUITEM "S&tatusleiste",               ID_VIEW_STATUS_BAR
+    END
+    POPUP "A&rbeit"
+    BEGIN
+        MENUITEM "&Aufgaben",                   ID_ARBEIT_AUFGABE
+        MENUITEM "&Bericht",                    ID_ARBEIT_BERICHT
+        MENUITEM SEPARATOR
+        MENUITEM "&Einstellungen",              ID_ARBEIT_EINSTELLUNGEN
+    END
+    POPUP "&Fenster"
+    BEGIN
+        MENUITEM "Neues &Fenster",              ID_WINDOW_NEW
+        MENUITEM "Über&lappend",                ID_WINDOW_CASCADE
+        MENUITEM "&Nebeneinander",              ID_WINDOW_TILE_HORZ
+        MENUITEM "&Symbole anordnen",           ID_WINDOW_ARRANGE
+    END
+    POPUP "&?"
+    BEGIN
+        MENUITEM "&Hilfethemen",                ID_HELP_FINDER
+        MENUITEM SEPARATOR
+        MENUITEM "Inf&o über ViBuro...",        ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+    VK_F1,          ID_CONTEXT_HELP,        VIRTKEY, SHIFT
+    VK_F1,          ID_HELP,                VIRTKEY 
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Info über ViBuro"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "ViBuro, Schritt 7",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright © 1997",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,32,14,WS_GROUP
+END
+
+IDD_MAIN DIALOGEX 0, 0, 261, 175
+STYLE DS_ABSALIGN | WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Spin1",IDC_SPIN_STUN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ARROWKEYS | UDS_HORZ | WS_GROUP,140,94,23,10
+    EDITTEXT        IDC_STUN,140,80,22,14
+    CONTROL         "Spin1",IDC_SPIN_MIN,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ARROWKEYS | UDS_HORZ,218,94,23,10
+    EDITTEXT        IDC_MIN,217,80,24,14,WS_GROUP
+    CONTROL         "Slider1",IDC_SLIDER,"msctls_trackbar32",TBS_NOTICKS | 
+                    WS_TABSTOP,10,115,244,12
+    PUSHBUTTON      "Übernehmen",IDC_ADD,20,148,50,14
+    PUSHBUTTON      "Löschen",IDC_DEL,99,148,50,14
+    CONTROL         "Ja",IDC_ANZEIG_JA,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,99,35,23,10
+    CONTROL         "Nein",IDC_ANZEIG_NEIN,"Button",BS_AUTORADIOBUTTON,99,49,
+                    31,10
+    CONTROL         "Spin1",IDC_SPIN_TAG,"msctls_updown32",UDS_SETBUDDYINT | 
+                    UDS_ARROWKEYS | UDS_HORZ | WS_GROUP,48,95,23,10
+    EDITTEXT        IDC_TAG,49,80,22,14,0,0,HIDC_TAG
+    COMBOBOX        IDC_MONAT,10,40,61,115,CBS_DROPDOWNLIST | WS_DISABLED | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_JAHR,49,19,22,14,ES_AUTOHSCROLL | WS_DISABLED
+    GROUPBOX        "Ergebnis:",IDC_STATIC,89,7,165,61
+    LTEXT           "Tag:",IDC_STATIC,20,80,16,8
+    LTEXT           "Stunden:",IDC_STATIC,99,80,30,8
+    LTEXT           "Minuten:",IDC_STATIC,180,80,28,8
+    LTEXT           "0",IDC_STATIC,16,130,8,8
+    LTEXT           "4",IDC_STATIC,51,130,8,8
+    LTEXT           "8",IDC_STATIC,91,130,8,8
+    LTEXT           "12",IDC_STATIC,126,130,8,8
+    LTEXT           "16",IDC_STATIC,165,130,8,8
+    LTEXT           "24",IDC_STATIC,239,130,12,8
+    LTEXT           "Stunden in diesem Monat:",IDC_STATIC,140,19,87,11
+    EDITTEXT        IDC_STUN_SUM,226,19,23,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    LTEXT           "Gehalt in diesem Monat:",IDC_STATIC,140,40,80,8
+    EDITTEXT        IDC_GEHALT,226,40,23,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    GROUPBOX        "Stundeneingabe:",IDC_STATIC124,4,70,251,99
+    GROUPBOX        "Anzeige:",IDC_STATIC,94,19,40,44
+    GROUPBOX        "Jahr und Monat:",IDC_STATIC,4,7,77,61
+    LTEXT           "Jahr:",IDC_STATIC,12,19,16,10
+    LTEXT           "20",IDC_STATIC,204,130,8,8
+END
+
+IDD_WAECHTER DIALOG DISCARDABLE  0, 0, 182, 86
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Willkommen in ViBuro"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_PASSWORD,46,35,130,15,ES_UPPERCASE | ES_PASSWORD | 
+                    ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,5,65,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,65,65,50,14
+    PUSHBUTTON      "Hilfe",IDC_HILFE,125,65,50,14
+    EDITTEXT        IDC_NAME,45,15,130,15,ES_AUTOHSCROLL
+    LTEXT           "Name:",IDC_STATIC,5,16,40,15,NOT WS_GROUP
+    LTEXT           "Paßwort: ",IDC_STATIC,5,39,40,15,NOT WS_GROUP
+END
+
+IDD_PROPPAGE1 DIALOG DISCARDABLE  0, 0, 183, 94
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Sitzung"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Nein",IDC_SITZUNG_ADD_JA,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,30,44,132,10
+    CONTROL         "Ja",IDC_SITZUNG_ADD_NEIN,"Button",BS_AUTORADIOBUTTON,30,
+                    61,128,10
+    LTEXT           "Dauer der Sitzung addiert man beim Rechnen automatisch",
+                    IDC_STATIC,20,19,143,22
+END
+
+IDD_PROPPAGE2 DIALOG DISCARDABLE  0, 0, 183, 94
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Paßwort"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Neues Paßwort:",IDC_STATIC,27,21,128,13
+    EDITTEXT        IDC_PASSWORD,23,38,132,14,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE3 DIALOG DISCARDABLE  0, 0, 183, 94
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Geldinstitut"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Geldinstitut:",IDC_STATIC,7,7,65,10
+    EDITTEXT        IDC_Bank_GELDINSTITUT,7,17,169,14,ES_AUTOHSCROLL
+    LTEXT           "Stadt:",IDC_STATIC,7,37,20,8
+    EDITTEXT        IDC_Bank_STADT,40,37,136,14,ES_AUTOHSCROLL
+    LTEXT           "BLZ:",IDC_STATIC,7,56,16,8
+    EDITTEXT        IDC_Bank_BLZ,40,56,70,14,ES_AUTOHSCROLL
+    LTEXT           "Konto",IDC_STATIC,8,77,32,8
+    EDITTEXT        IDC_Bank_KONTO,40,77,70,14,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE4 DIALOG DISCARDABLE  0, 0, 183, 94
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Adresse"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Straße, Hausnummer:",IDC_STATIC,7,3,128,8
+    EDITTEXT        IDC_ADRES_STRASSE,7,13,169,14,ES_AUTOHSCROLL
+    LTEXT           "PLZ:",IDC_STATIC,7,32,23,13
+    EDITTEXT        IDC_ADRES_PLZ,44,31,56,14,ES_AUTOHSCROLL
+    LTEXT           "Stadt:",IDC_STATIC,7,51,23,12
+    EDITTEXT        IDC_ADRES_STADT,44,51,132,14,ES_AUTOHSCROLL
+    LTEXT           "Telefon:",IDC_STATIC,7,73,26,13
+    EDITTEXT        IDC_ADRES_TELEFON,44,72,56,14,ES_AUTOHSCROLL
+END
+
+IDD_PROPPAGE5 DIALOG DISCARDABLE  0, 0, 183, 94
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Name"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Name:",IDC_STATIC,14,17,30,13
+    EDITTEXT        IDC_NAME_NAME,50,14,102,14,ES_AUTOHSCROLL
+    LTEXT           "Vorname:",IDC_STATIC,14,30,36,13
+    EDITTEXT        IDC_NAME_VORNAME,50,30,102,14,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,7,7,169,40
+    LTEXT           "Tag:",IDC_STATIC,14,65,16,8
+    EDITTEXT        IDC_NAME_TAG,30,65,23,14,ES_AUTOHSCROLL
+    LTEXT           "Monat:",IDC_STATIC,61,65,26,8
+    EDITTEXT        IDC_NAME_MONAT,90,65,23,14,ES_AUTOHSCROLL
+    LTEXT           "Jahr:",IDC_STATIC,117,65,16,8
+    EDITTEXT        IDC_NAME_JAHR,140,65,30,14,ES_AUTOHSCROLL
+    GROUPBOX        "Geburtsdatum",IDC_STATIC,7,51,169,35,BS_CENTER
+END
+
+IDD_PROPPAGE6 DIALOG DISCARDABLE  0, 0, 183, 94
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Tätigkeit"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Tätigkeit:",IDC_STATIC,22,7,128,13
+    COMBOBOX        IDC_JOB_COMBO,19,30,90,45,CBS_DROPDOWNLIST | WS_TABSTOP
+END
+
+IDD_NEW DIALOG DISCARDABLE  0, 0, 166, 66
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Neu Dokument"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,104,18,50,14
+    PUSHBUTTON      "Abbrechen",IDCANCEL,104,38,50,14
+    COMBOBOX        IDC_MONAT,24,38,61,115,CBS_DROPDOWNLIST | WS_TABSTOP
+    EDITTEXT        IDC_JAHR,63,18,22,14,ES_AUTOHSCROLL
+    GROUPBOX        "Jahr und Monat:",IDC_STATIC,12,7,77,52
+    LTEXT           "Jahr:",IDC_STATIC,25,18,16,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040704b0"
+        BEGIN
+            VALUE "CompanyName", "FernUni\0"
+            VALUE "FileDescription", "VIBURO MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "VIBURO\0"
+            VALUE "LegalCopyright", "Copyright © 1997\0"
+            VALUE "OriginalFilename", "VIBURO.EXE\0"
+            VALUE "ProductName", "VIBURO Schritt7\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x407, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_MAIN, DIALOG
+    BEGIN
+        VERTGUIDE, 226
+        VERTGUIDE, 249
+        HORZGUIDE, 131
+    END
+
+    IDD_WAECHTER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 175
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 79
+    END
+
+    IDD_PROPPAGE1, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        VERTGUIDE, 30
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_PROPPAGE2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        VERTGUIDE, 26
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_PROPPAGE3, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        VERTGUIDE, 40
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+        HORZGUIDE, 17
+        HORZGUIDE, 37
+        HORZGUIDE, 56
+    END
+
+    IDD_PROPPAGE4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        VERTGUIDE, 11
+        VERTGUIDE, 44
+        VERTGUIDE, 100
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+        HORZGUIDE, 20
+        HORZGUIDE, 38
+    END
+
+    IDD_PROPPAGE5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        VERTGUIDE, 14
+        VERTGUIDE, 50
+        VERTGUIDE, 61
+        VERTGUIDE, 140
+        VERTGUIDE, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+        HORZGUIDE, 14
+        HORZGUIDE, 30
+        HORZGUIDE, 65
+    END
+
+    IDD_PROPPAGE6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 176
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 86
+    END
+
+    IDD_NEW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 159
+        VERTGUIDE, 13
+        VERTGUIDE, 104
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 59
+        HORZGUIDE, 18
+        HORZGUIDE, 38
+        HORZGUIDE, 59
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_MAIN DLGINIT
+BEGIN
+    IDC_MONAT, 0x403, 7, 0
+0x614a, 0x756e, 0x7261, "\000" 
+    IDC_MONAT, 0x403, 8, 0
+0x6546, 0x7262, 0x6175, 0x0072, 
+    IDC_MONAT, 0x403, 5, 0
+0x614d, 0x7a72, "\000" 
+    IDC_MONAT, 0x403, 6, 0
+0x7041, 0x6972, 0x006c, 
+    IDC_MONAT, 0x403, 4, 0
+0x614d, 0x0069, 
+    IDC_MONAT, 0x403, 5, 0
+0x754a, 0x696e, "\000" 
+    IDC_MONAT, 0x403, 5, 0
+0x754a, 0x696c, "\000" 
+    IDC_MONAT, 0x403, 7, 0
+0x7541, 0x7567, 0x7473, "\000" 
+    IDC_MONAT, 0x403, 10, 0
+0x6553, 0x7470, 0x6d65, 0x6562, 0x0072, 
+    IDC_MONAT, 0x403, 8, 0
+0x6b4f, 0x6f74, 0x6562, 0x0072, 
+    IDC_MONAT, 0x403, 9, 0
+0x6f4e, 0x6576, 0x626d, 0x7265, "\000" 
+    IDC_MONAT, 0x403, 9, 0
+0x6544, 0x657a, 0x626d, 0x7265, "\000" 
+    0
+END
+
+IDD_PROPPAGE6 DLGINIT
+BEGIN
+    IDC_JOB_COMBO, 0x403, 7, 0
+0x654c, 0x7469, 0x7265, "\000" 
+    IDC_JOB_COMBO, 0x403, 12, 0
+0x694d, 0x6174, 0x6272, 0x6965, 0x6574, 0x0072, 
+    IDC_JOB_COMBO, 0x403, 17, 0
+0x7246, 0x6965, 0x4d20, 0x7469, 0x7261, 0x6562, 0x7469, 0x7265, "\000" 
+    0
+END
+
+IDD_NEW DLGINIT
+BEGIN
+    IDC_MONAT, 0x403, 8, 0
+0x614a, 0x6e68, 0x6175, 0x0072, 
+    IDC_MONAT, 0x403, 8, 0
+0x6546, 0x7262, 0x6175, 0x0072, 
+    IDC_MONAT, 0x403, 5, 0
+0x614d, 0x7a72, "\000" 
+    IDC_MONAT, 0x403, 6, 0
+0x7041, 0x6972, 0x006c, 
+    IDC_MONAT, 0x403, 4, 0
+0x614d, 0x0069, 
+    IDC_MONAT, 0x403, 5, 0
+0x754a, 0x696e, "\000" 
+    IDC_MONAT, 0x403, 5, 0
+0x754a, 0x696c, "\000" 
+    IDC_MONAT, 0x403, 7, 0
+0x7541, 0x7567, 0x7473, "\000" 
+    IDC_MONAT, 0x403, 10, 0
+0x6553, 0x7470, 0x6d65, 0x6562, 0x0072, 
+    IDC_MONAT, 0x403, 8, 0
+0x634f, 0x6f74, 0x6562, 0x0072, 
+    IDC_MONAT, 0x403, 9, 0
+0x6f4e, 0x6576, 0x626d, 0x7265, "\000" 
+    IDC_MONAT, 0x403, 9, 0
+0x6544, 0x657a, 0x626d, 0x7265, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_VIBUROTYPE          ICON    DISCARDABLE     "res\\ViBuroDoc.ico"
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ViBuro.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "ViBuro"
+    IDR_VIBUROTYPE          "\nViBuro\nViBuro\n\n.vil\nViBuro.Liste\nViBuro Liste"
+    IDR_VIBUROTYPE_AUFGABE  "\nViBuro\nViBuro\n\n.via\nViBuro.Aufgaben\nViBuro Aufgaben"
+    IDR_VIBUROTYPE_BERICHT  "\nViBuro\nViBuro\n\n.vib\nViBuro.Bericht\nViBuro Bericht"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "ViBuro"
+    AFX_IDS_IDLEMESSAGE     "Drücken Sie F1, um Hilfe zu erhalten."
+    AFX_IDS_HELPMODEMESSAGE "Wählen Sie das Objekt, zu dem Sie Hilfe wünschen."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "ER"
+    ID_INDICATOR_CAPS       "UF"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "RF"
+    ID_INDICATOR_OVR        "ÜB"
+    ID_INDICATOR_REC        "MA"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Erstellt ein neues Dokument.\nNeu"
+    ID_FILE_OPEN            "Öffnet ein bestehendes Dokument.\nÖffnen"
+    ID_FILE_CLOSE           "Schließt das aktive Dokument.\nSchließen"
+    ID_FILE_SAVE            "Speichert das aktive Dokument.\nSpeichern"
+    ID_FILE_SAVE_AS         "Speichert das aktive Dokument unter neuem Namen.\nSpeichern unter"
+    ID_FILE_PAGE_SETUP      "Ändert die Druckoptionen.\nSeite einrichten"
+    ID_FILE_PRINT_SETUP     "Ändert den Drucker und die Druckoptionen.\nDruckereinrichtung"
+    ID_FILE_PRINT           "Druckt das aktive Dokument.\nDrucken"
+    ID_FILE_PRINT_PREVIEW   "Zeigt ganze Seiten an.\nSeitenansicht"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Zeigt Programm-Informationen, Versionsnummer und Copyright an.\nInfo"
+    ID_APP_EXIT             "Verläßt die Anwendung; fragt, ob Dokumente gespeichert werden sollen.\nBeenden"
+    ID_HELP_INDEX           "Öffnet die Hilfefunktion.\nHilfethemen"
+    ID_HELP_FINDER          "Listet die Hilfethemen auf.\nHilfethemen"
+    ID_HELP_USING           "Zeigt Anweisungen zum Umgang mit der Hilfe an.\nHilfe"
+    ID_CONTEXT_HELP         "Zeigt Hilfe zu angeklickten Schaltflächen, Menüs und Fenstern an.\nHilfe"
+    ID_HELP                 "Zeigt Hilfe zum aktuellen Vorgang oder Befehl an.\nHilfe"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE2       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE3       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE4       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE5       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE6       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE7       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE8       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE9       "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE10      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE11      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE12      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE13      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE14      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE15      "Öffnet dieses Dokument."
+    ID_FILE_MRU_FILE16      "Öffnet dieses Dokument."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Wechselt zum nächsten Fensterausschnitt.\nNächster Ausschnitt"
+    ID_PREV_PANE            "Springt zum vorherigen Fensterausschnitt zurück.\nVorheriger Ausschnitt"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_NEW           "Öffnet ein weiteres Fenster für das aktive Dokument.\nNeues Fenster"
+    ID_WINDOW_ARRANGE       "Ordnet die Symbole im unteren Bereich des Fensters an.\nSymbole anordnen"
+    ID_WINDOW_CASCADE       "Ordnet die Fenster überlappend an.\nÜberlappende Fenster"
+    ID_WINDOW_TILE_HORZ     "Ordnet die Fenster nebeneinander an.\nFenster nebeneinander"
+    ID_WINDOW_TILE_VERT     "Ordnet die Fenster nebeneinander an.\nFenster nebeneinander"
+    ID_WINDOW_SPLIT         "Teilt das aktive Fenster in Ausschnitte.\nTeilen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Löscht die Markierung.\nLöschen"
+    ID_EDIT_CLEAR_ALL       "Löscht alles.\nAlles löschen"
+    ID_EDIT_COPY            "Kopiert die Markierung und überträgt sie in die Zwischenablage.\nKopieren"
+    ID_EDIT_CUT             "Entfernt die Markierung und überträgt sie in die Zwischenablage.\nAusschneiden"
+    ID_EDIT_FIND            "Sucht den angegebenen Text.\nSuchen"
+    ID_EDIT_PASTE           "Fügt den Inhalt der Zwischenablage ein.\nEinfügen"
+    ID_EDIT_REPEAT          "Wiederholt die letzte Aktion.\nWiederholen"
+    ID_EDIT_REPLACE         "Ersetzt einen bestimmten Text durch einen anderen.\nErsetzen"
+    ID_EDIT_SELECT_ALL      "Markiert das gesamte Dokument.\nAlles markieren"
+    ID_EDIT_UNDO            "Macht die letzte Aktion rückgängig.\nRückgängig"
+    ID_EDIT_REDO            "Wiederholt die vorher rückgängig gemachte Aktion.\nWiederherstellen"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Blendet die Symbolleiste ein oder aus.\nSymbolleiste ein-/ausschalten"
+    ID_VIEW_STATUS_BAR      "Blendet die Statusleiste ein oder aus.\nStatusleiste ein-/ausschalten"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Ändert die Fenstergröße."
+    AFX_IDS_SCMOVE          "Ändert die Position des Fensters."
+    AFX_IDS_SCMINIMIZE      "Verkleinert das Fenster zu einem Symbol."
+    AFX_IDS_SCMAXIMIZE      "Vergrößert das Fenster zu voller Größe."
+    AFX_IDS_SCNEXTWINDOW    "Wechselt zum nächsten Dokumentfenster."
+    AFX_IDS_SCPREVWINDOW    "Wechselt zum vorherigen Dokumentfenster."
+    AFX_IDS_SCCLOSE         "Schließt das aktive Fenster und fordert zur Dokumentspeicherung auf."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Stellt das Fenster in seiner normalen Größe wieder her."
+    AFX_IDS_SCTASKLIST      "Aktiviert die Task-Liste."
+    AFX_IDS_MDICHILD        "Aktiviert dieses Fenster."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Beendet die Seitenansicht.\nSeitenansicht beenden"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_ARBEIT_AUFGABE       "Öffnen des Aufgabenfensters\nAufgaben"
+    ID_ARBEIT_BERICHT       "Öffnen eines  Berichtfensters.\nBericht"
+    ID_ARBEIT_EINSTELLUNGEN "Öffnen des Einstellungen - Fenster\nEinstellungen"
+    ID_SITZUNG_DAUER        "Dauer der Sitzung"
+    ID_TIMER                "Timer Kennung"
+    ID_TIMER_STUN_EINGAB    "Timer für Klasse CStunEingab"
+    ID_ARBEIT_AUFGABEN      "Öffnen eines Aufgabenfensters.\nAufgaben"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_PROPSHT_CAPTION     "Property Sheet"
+END
+
+#endif    // German (Germany) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
+#ifdef _WIN32
+LANGUAGE 7, 1
+#pragma code_page(1252)
+#endif
+#include "res\ViBuro.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.deu\afxres.rc"          // Standard components
+#include "l.deu\afxprint.rc"        // printing/print preview resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

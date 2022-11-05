@@ -1,0 +1,36 @@
+// MAKEHELP.BAT generated Help Map file.  Used by VIBURO.HPJ. 
+ 
+// Commands (ID_* and IDM_*) 
+HID_ARBEIT_AUFGABE                      0x18003
+HID_ARBEIT_BERICHT                      0x18004
+HID_ARBEIT_EINSTELLUNGEN                0x18005
+HID_SITZUNG_DAUER                       0x18006
+HID_TIMER                               0x18007
+HID_TIMER_STUN_EINGAB                   0x18008
+HID_ARBEIT_TEST                         0x18009
+HID_ARBEIT_TEST1                        0x1800A
+HID_ARBEIT_TEST2                        0x1800B
+HID_ARBEIT_AUFGABEN                     0x1800E
+ 
+// Prompts (IDP_*) 
+ 
+// Resources (IDR_*) 
+HIDR_MAINFRAME                          0x20080
+HIDR_VIBUROTYPE                         0x20081
+HIDR_VIBUROTYPE_AUFGABE                 0x20082
+HIDR_VIBUROTYPE_BERICHT                 0x20083
+ 
+// Dialogs (IDD_*) 
+HIDD_ABOUTBOX                           0x20064
+HIDD_VIBURO_FORM                        0x20065
+HIDD_WAECHTER                           0x20066
+HIDD_PROPPAGE1                          0x20068
+HIDD_PROPPAGE2                          0x20069
+HIDD_PROPPAGE3                          0x2006A
+HIDD_PROPPAGE4                          0x2006B
+HIDD_PROPPAGE5                          0x2006C
+HIDD_PROPPAGE6                          0x2006D
+HIDD_MAIN                               0x20084
+HIDD_NEW                                0x20085
+ 
+// Frame Controls (IDW_*) 

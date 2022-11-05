@@ -1,0 +1,30 @@
+{\rtf1\ansi \deff4\deflang1033{\fonttbl{\f4\froman\fcharset0\fprq2 Times New Roman;}{\f5\fswiss\fcharset0\fprq2 Arial;}{\f11\fmodern\fcharset0\fprq1 Courier New;}}{\colortbl;\red0\green0\blue0;\red0\green0\blue255;
+\red0\green255\blue255;\red0\green255\blue0;\red255\green0\blue255;\red255\green0\blue0;\red255\green255\blue0;\red255\green255\blue255;\red0\green0\blue128;\red0\green128\blue128;\red0\green128\blue0;\red128\green0\blue128;\red128\green0\blue0;
+\red128\green128\blue0;\red128\green128\blue128;\red192\green192\blue192;}{\stylesheet{\widctlpar \f4\fs20\lang1031 \snext0 Normal;}{\*\cs10 \additive Default Paragraph Font;}}{\info{\author FernUniversit\'e4t Hagen}{\operator Michael Heise}
+{\creatim\yr1997\mo9\dy6\hr19\min22}{\revtim\yr1997\mo9\dy9\hr18\min34}{\version2}{\edmins0}{\nofpages1}{\nofwords305}{\nofchars1744}{\*\company Fernuniversit\'e4t Hagen}{\vern57431}}\margl1417\margr1417\margt1417\margb1134 
+\widowctrl\ftnbj\aenddoc\hyphhotz425\makebackup\hyphcaps0 \fet0\sectd \linex0\headery709\footery709\colsx709 {\*\pnseclvl1\pnucrm\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl2\pnucltr\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl3
+\pndec\pnstart1\pnindent720\pnhang{\pntxta .}}{\*\pnseclvl4\pnlcltr\pnstart1\pnindent720\pnhang{\pntxta )}}{\*\pnseclvl5\pndec\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl6\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}
+{\*\pnseclvl7\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl8\pnlcltr\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}{\*\pnseclvl9\pnlcrm\pnstart1\pnindent720\pnhang{\pntxtb (}{\pntxta )}}\pard\plain \nowidctlpar 
+\f4\fs20\lang1031 {\f5 Die Gruppe }{\f11 Stundeneingabe}{\f5  besteht aus mehreren }{\b\f5 Steuerelementen}{\f5 , die miteinander relativ komplex verkn\'fcpft sind.
+\par 
+\par Das }{\f11 Tag}{\f5 -Eingabefeld bekommt von einer Initialisierungsmethode seinen Wert beim Start der Anwendung oder bei Auswahl des Men\'fcpunkts }{\f11 Datei|Neu}{\f5 .
+\par 
+\par Sie k\'f6nnen einen Wert in diesem Feld wie in jedem anderen Eingabefeld der Gruppe }{\f11 Stundeneingabe}{\f5  durch die direkte Eingabe der Zahlenwerte \'e4ndern. Oder sie \'e4ndern die Werte schrittweise \'fcber die sogenannten}{\b\f5  Spins}{\f5 
+, die sich unter dem Feld befinden. Spins sind relativ neue Steuerelemente in Visual C++.
+\par 
+\par Gibt der Benutzer f\'fcr einen Tag Stunden oder Minuten ein, wird diese Angabe gespeichert. Geht er dann auf diesen Tag zur\'fcck, z.B. mit dem Spin unter dem Eingabefeld }{\f11 Tag}{\f5 
+, zeigt das Programm die zuletzt eingegebenen Stunden und Minuten. Ist f\'fcr einen bestimmten Tag noch keine Zeitangabe gemacht worden, steht im Stunden- und }{\f11 Minuten}{\f5 -Eingabefeld der Wert }{\f11 Null}{\f5 . 
+\par 
+\par In diesem Kapitel wird nur die Initialisierung der beiden Zeiteingabefelder mit }{\f11 Null }{\f5 realisiert. 
+\par Die Position des }{\b\f5 Schiebereglers}{\f5  (}{\i\f5 slider}{\f5 ) und die Werte in den Eingabefeldern }{\f11 Stunden}{\f5  und }{\f11 Minuten}{\f5  sollen sich immer in \'dcbereinstimmung befinden. 
+\par 
+\par Das hei\'dft: Wenn zum Beispiel ein Benutzer in das Feld }{\f11 Stunden}{\f5  einen neuen Wert einf\'fc
+gt, bewegt sich der Schieberegler auf die entsprechende Stelle in der Schiebeleiste. Dieser Vorgang funktioniert auch umgekehrt. Wenn man also die Position des Schiebereglers \'e4ndert, \'e4ndern sich auch die Werte in beiden Zeitfeldern entsprechend.
+
+\par 
+\par Die Schaltfl\'e4che }{\f11 \'dcbernehmen}{\f5  ist nur dann aktiviert, wenn die Stunden- oder Minutenangabe ge\'e4ndert wurde. Nach dem Anklicken der }{\f11 \'dcbernehmen}{\f5 -Schaltfl\'e4che erg\'e4nzt bzw. \'e4
+ndert unser Programm den entsprechenden Eintrag in der Liste. Danach ist die }{\f11 \'dcbernehmen}{\f5 -\~Schaltfl\'e4che bis zur n\'e4chsten \'c4nderung nicht mehr aktivierbar. In diesem Kapitel wird diese Funktionalit\'e4t nicht implementiert.
+\par 
+\par Mit der Schaltfl\'e4che }{\f11 L\'f6schen}{\f5  kann man die aktuelle Zeitangabe l\'f6schen. In diesem Kapitel sollen alle Steuerelemente des Dialogs erstellt werden. Allerdings werden sie nur mit einigen (noch nicht vollst\'e4ndigen) Funktionalit\'e4
+ten verkn\'fcpft.
+\par }}

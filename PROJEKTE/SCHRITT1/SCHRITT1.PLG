@@ -1,0 +1,47 @@
+--------------------Configuration: Schritt1 - Win32 Debug--------------------
+Begining build with project "C:\Projekte\SCHRITT1\Schritt1.dsp", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"c:\tmp\Schritt1/Schritt1.pch" /Yu"stdafx.h" /Fo"c:\tmp\Schritt1/" /Fd"c:\tmp\Schritt1/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x407 /fo"c:\tmp\Schritt1/Schritt1.res" /d "_DEBUG" /d "_AFXDLL" "
+			"Browser Database Maker" with flags "/nologo /o"c:\tmp\Schritt1/Schritt1.bsc" "
+			"COFF Linker for 80x86" with flags "/nologo /subsystem:windows /incremental:yes /pdb:"c:\tmp\Schritt1/Schritt1.pdb" /debug /machine:I386 /out:"c:\tmp\Schritt1/Schritt1.exe" "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating command line "rc.exe /l 0x407 /fo"c:\tmp\Schritt1/Schritt1.res" /d "_DEBUG" /d "_AFXDLL" "C:\Projekte\SCHRITT1\Schritt1.rc"" 
+Creating temp file "C:\WINDOWS\TEMP\RSP70D5.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"c:\tmp\Schritt1/Schritt1.pch" /Yu"stdafx.h" /Fo"c:\tmp\Schritt1/" /Fd"c:\tmp\Schritt1/" /FD /c 
+"C:\Projekte\SCHRITT1\MainFrm.cpp"
+"C:\Projekte\SCHRITT1\Schritt1.cpp"
+"C:\Projekte\SCHRITT1\Schritt1Doc.cpp"
+"C:\Projekte\SCHRITT1\Schritt1View.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP70D5.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP70D6.TMP" with contents </nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"c:\tmp\Schritt1/Schritt1.pch" /Yc"stdafx.h" /Fo"c:\tmp\Schritt1/" /Fd"c:\tmp\Schritt1/" /FD /c 
+"C:\Projekte\SCHRITT1\StdAfx.cpp"
+>
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP70D6.TMP" 
+Creating temp file "C:\WINDOWS\TEMP\RSP70D7.TMP" with contents </nologo /subsystem:windows /incremental:yes /pdb:"c:\tmp\Schritt1/Schritt1.pdb" /debug /machine:I386 /out:"c:\tmp\Schritt1/Schritt1.exe" 
+\tmp\Schritt1\MainFrm.obj
+\tmp\Schritt1\Schritt1.obj
+\tmp\Schritt1\Schritt1Doc.obj
+\tmp\Schritt1\Schritt1View.obj
+\tmp\Schritt1\StdAfx.obj
+\tmp\Schritt1\Schritt1.res>
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP70D7.TMP" 
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+MainFrm.cpp
+Schritt1.cpp
+Schritt1Doc.cpp
+Schritt1View.cpp
+Generating Code...
+Linking...
+
+
+
+Schritt1.exe - 0 error(s), 0 warning(s)

@@ -1,0 +1,3 @@
+//HelpIDs.h
+#define HIDC_SPIN_TAG 101
+#define H_PASSWORT_PROBLEM 102
